@@ -24,6 +24,15 @@
 make
 ```
 
+This builds the `ncdiff` binary in the project root. On macOS it uses the
+system SDK, and on Linux it auto-selects a working ncurses link configuration.
+
+To install it into your path:
+
+```sh
+make install
+```
+
 ## Run
 
 ```sh
